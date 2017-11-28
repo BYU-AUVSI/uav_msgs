@@ -50,6 +50,9 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
    FILES
    Mission.msg
+   Cylinder.msg
+   GPS_Point.msg
+   Waypoint.msg
 #   Message2.msg
  )
 
