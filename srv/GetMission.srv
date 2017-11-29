@@ -1,0 +1,13 @@
+# This message allows the plane to request a mission to fly. If the ground has sent the COMMAND_TYPE_RELOAD
+# message to the plane, the plane will request a mission with REQUEST_TYPE_UPDATE_MISSION. The ground should send
+# an updated version of the same mission. Otherwise, the plane will use REQUEST_TYPE_NEW_MISSION and the
+# ground will decided which mission to send next.
+
+uint8 REQUEST_TYPE_UPDATE_MISSION = 0
+uint8 REQUEST_TYPE_NEW_MISSION = 1
+
+# Request data
+uint8 request_type
+---
+# Response data
+Mission mission
