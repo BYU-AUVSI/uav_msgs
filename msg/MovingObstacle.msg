@@ -1,0 +1,2 @@
+Point point
+float32 sphere_radius

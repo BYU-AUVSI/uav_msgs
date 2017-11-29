@@ -50,10 +50,11 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
    FILES
    Mission.msg
-   Cylinder.msg
-   GPS_Point.msg
-   Waypoint.msg
-#   Message2.msg
+   MovingObstacle.msg
+   Point.msg
+   OrderedPoint.msg
+   MovingObstacleCollection.msg
+   StationaryObstacle.msg
  )
 
 ## Generate services in the 'srv' folder
