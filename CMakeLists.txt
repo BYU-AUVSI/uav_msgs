@@ -55,6 +55,7 @@ add_message_files(
    OrderedPoint.msg
    MovingObstacleCollection.msg
    StationaryObstacle.msg
+   Command.msg
  )
 
 ## Generate services in the 'srv' folder
