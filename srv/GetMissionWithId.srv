@@ -1,0 +1,6 @@
+# Used to request a mission with a certain id from interop. Interopt will fill in all possible details,
+# but depending on the mission type, more information may need to filled in by the caller.
+
+uint8 mission_type # Same mission types as specified in Mission.msg
+---
+Mission mission

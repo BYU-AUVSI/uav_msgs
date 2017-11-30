@@ -62,7 +62,7 @@ add_message_files(
  add_service_files(
    FILES
    GetMission.srv
-#   Service2.srv
+   GetMissionWithId.srv
  )
 
 ## Generate actions in the 'action' folder
