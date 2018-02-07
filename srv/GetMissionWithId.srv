@@ -3,4 +3,4 @@
 
 uint8 mission_type # Same mission types as specified in Mission.msg
 ---
-Mission mission
+JudgeMission mission
