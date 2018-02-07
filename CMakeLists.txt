@@ -50,6 +50,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
    FILES
    Mission.msg
+   JudgeMission.msg
    MovingObstacle.msg
    Point.msg
    OrderedPoint.msg
