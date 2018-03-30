@@ -1,0 +1,6 @@
+# Used to generate a path to fly, avoiding obstacles, for humans to double-check.
+
+JudgeMission mission
+---
+
+# No response. Generate path will show in the rviz node.

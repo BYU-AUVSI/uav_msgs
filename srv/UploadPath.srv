@@ -1,0 +1,4 @@
+# Use to upload the most recently generated path (with GeneratePath.srv) to the plane
+
+---
+bool success
