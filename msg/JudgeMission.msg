@@ -7,6 +7,8 @@ uint8 MISSION_TYPE_SEARCH = 2
 uint8 MISSION_TYPE_OTHER = 3
 uint8 MISSION_TYPE_LAND = 4
 
+bool now # Whether the plane should begin executing this mission immediately (true), or wait for confirmation (false)
+
 OrderedPoint[] waypoints # These are the primary mission waypoints.
 OrderedPoint[] boundaries # An array of GPS points that denote the flight boundaries of the competition.
 StationaryObstacle[] stationary_obstacles # The static obstacles that will be placed throughout the competition field.
