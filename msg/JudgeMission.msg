@@ -6,6 +6,8 @@ uint8 MISSION_TYPE_DROP = 1
 uint8 MISSION_TYPE_SEARCH = 2
 uint8 MISSION_TYPE_OTHER = 3
 uint8 MISSION_TYPE_LAND = 4
+uint8 MISSION_TYPE_EMERGENT = 5
+uint8 MISSION_TYPE_OFFAXIS = 6
 
 bool now # Whether the plane should begin executing this mission immediately (true), or wait for confirmation (false)
 
