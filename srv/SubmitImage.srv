@@ -1,3 +1,4 @@
+# Final target to submit to the judges via interop
 sensor_msgs/Image image
 string type
 float32 latitude
@@ -9,3 +10,7 @@ string alphanumeric
 string alphanumeric_color
 string description
 bool autonomous
+---
+# whether both the image and its classification information were successfully
+# submitted to the judge server
+bool success
