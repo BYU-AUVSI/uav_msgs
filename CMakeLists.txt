@@ -20,6 +20,8 @@ add_message_files(
    MovingObstacleCollection.msg
    StationaryObstacle.msg
    Command.msg
+   NED_pt.msg
+   NED_list.msg
  )
 
 ## Generate services in the 'srv' folder
@@ -42,4 +44,3 @@ generate_messages(
 catkin_package(
   CATKIN_DEPENDS sensor_msgs
 )
-
