@@ -1,0 +1,6 @@
+#request a mission
+int8 mission_type
+
+---
+#response is a list of points in a NED_list
+NED_list planned_waypoints
