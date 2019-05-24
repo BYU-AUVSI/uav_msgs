@@ -32,6 +32,7 @@ add_message_files(
    GeneratePath.srv
    GetMissionWithId.srv
    UploadPath.srv
+   PlanMissionPoints.srv
  )
 
 ## Generate added messages and services with any dependencies listed here
