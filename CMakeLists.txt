@@ -22,6 +22,8 @@ add_message_files(
    Command.msg
    NED_pt.msg
    NED_list.msg
+   State.msg
+   Waypoint.msg
  )
 
 ## Generate services in the 'srv' folder
@@ -33,6 +35,7 @@ add_message_files(
    GetMissionWithId.srv
    UploadPath.srv
    PlanMissionPoints.srv
+   NewWaypoints.srv
  )
 
 ## Generate added messages and services with any dependencies listed here
