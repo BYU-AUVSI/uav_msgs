@@ -36,6 +36,7 @@ add_message_files(
    UploadPath.srv
    PlanMissionPoints.srv
    NewWaypoints.srv
+   UpdateSearchParams.srv
  )
 
 ## Generate added messages and services with any dependencies listed here
