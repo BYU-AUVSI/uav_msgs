@@ -24,6 +24,7 @@ add_message_files(
    NED_list.msg
    State.msg
    Waypoint.msg
+   CompressedImgWithMeta.msg
  )
 
 ## Generate services in the 'srv' folder
