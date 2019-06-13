@@ -20,6 +20,11 @@ add_message_files(
    MovingObstacleCollection.msg
    StationaryObstacle.msg
    Command.msg
+   NED_pt.msg
+   NED_list.msg
+   State.msg
+   Waypoint.msg
+   CompressedImgWithMeta.msg
  )
 
 ## Generate services in the 'srv' folder
@@ -30,6 +35,9 @@ add_message_files(
    GeneratePath.srv
    GetMissionWithId.srv
    UploadPath.srv
+   PlanMissionPoints.srv
+   NewWaypoints.srv
+   UpdateSearchParams.srv
  )
 
 ## Generate added messages and services with any dependencies listed here
@@ -42,4 +50,3 @@ generate_messages(
 catkin_package(
   CATKIN_DEPENDS sensor_msgs
 )
-

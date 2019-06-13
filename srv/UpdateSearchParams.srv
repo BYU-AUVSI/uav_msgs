@@ -1,0 +1,6 @@
+# Use to update desired height and waypoint separation for search path
+float64 height
+float64 waypoint_distance
+
+---
+bool success
