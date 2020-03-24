@@ -1,6 +1,5 @@
 #request a mission
 int8 mission_type
-NED_list landing_waypoints 
 
 ---
 #response is a list of points in a NED_list

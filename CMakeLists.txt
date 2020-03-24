@@ -35,6 +35,7 @@ add_message_files(
    GeneratePath.srv
    GetMissionWithId.srv
    UploadPath.srv
+   PlanLandingPoints.srv
    PlanMissionPoints.srv
    NewWaypoints.srv
    UpdateSearchParams.srv
