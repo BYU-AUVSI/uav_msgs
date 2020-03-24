@@ -38,6 +38,7 @@ add_message_files(
    PlanMissionPoints.srv
    NewWaypoints.srv
    UpdateSearchParams.srv
+   PayloadDrop.srv
  )
 
 ## Generate added messages and services with any dependencies listed here
